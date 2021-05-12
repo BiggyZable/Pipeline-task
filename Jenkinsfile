@@ -6,7 +6,7 @@ pipeline {
     REGION = 'us-west-2'
     ECR_REPOSITORY = 'test-ecr1'
     VERSION = 'latest'
-    CREDENTIALS = 'aws_credentials'
+    CREDENTIALS = 'AWS_CREDENTIALS'
     DOCKERFILE_PATH = './app/'
   }
 
