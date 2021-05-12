@@ -14,7 +14,7 @@ pipeline {
   stages {
     stage('Git cloning'){
       steps {
-        git branch: 'main',
+        git branch: 'master',
             credentialsId: 'github',
             url: 'https://github.com/BiggyZable/Pipeline-task'
       }
