@@ -25,9 +25,8 @@ locals {
   vpc_name = "apache-test-vpc"
 }
 
-resource "random_string" "suffix" {
-  length  = 8
-  special = false
+resource "aws_ecr_repository" "app_ecr" {
+  name = var.ecr_repository_name
 }
 
 resource "aws_security_group" "worker_group_mgmt_one" {

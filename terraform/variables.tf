@@ -2,6 +2,13 @@ variable "region" {
   default = "us-west-2"
 }
 
+variable "ecr_repository_name" {
+  description = "Name of the ECR repository used for our Docker image."
+  type = string
+  default = "test-ecr1"
+  
+}
+
 variable "map_accounts" {
   description = "Additional AWS account numbers to add to the aws-auth configmap."
   type        = list(string)
