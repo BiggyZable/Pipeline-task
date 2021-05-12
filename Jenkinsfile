@@ -16,7 +16,7 @@ pipeline {
       steps {
         git branch: 'main',
             credentialsId: 'github',
-            url: 'https://github.com/ZsoltTirkala/Terraform-k8s-test.git'
+            url: 'https://github.com/BiggyZable/Pipeline-task'
       }
     }
 
