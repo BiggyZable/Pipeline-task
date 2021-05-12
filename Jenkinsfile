@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-    REGISTRY = '003235076673.dkr.ecr.eu-west-2.amazonaws.com'
-    REGION = 'eu-west-2'
+    REGISTRY = '003235076673.dkr.ecr.us-west-2.amazonaws.com'
+    REGION = 'us-west-2'
     ECR_REPOSITORY = 'test-ecr1'
     VERSION = 'latest'
     CREDENTIALS = 'aws_credentials'
