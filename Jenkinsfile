@@ -40,3 +40,4 @@ pipeline {
       sh "echo Failure!"
     }
   }
+}
